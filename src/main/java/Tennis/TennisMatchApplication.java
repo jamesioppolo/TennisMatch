@@ -1,13 +1,21 @@
 package Tennis;
 
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 
 import java.util.Scanner;
 
 @Component
 public class TennisMatchApplication {
-	MatchScore matchScore = new MatchScore();
+
+	@Autowired
+	private final MatchScore matchScore;
+
 	Scanner keyboard = new Scanner(System.in);
+
+	public TennisMatchApplication(MatchScore matchScore) {
+		this.matchScore = matchScore;
+	}
 
 	public void start() {
 		System.out.println("Tennis Match Application");

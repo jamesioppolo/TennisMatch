@@ -7,6 +7,6 @@ import org.junit.Test;
 
 public class TennisMatchApplicationTest {
 	
-	private TennisMatchApplication tennisMatchApplication = new TennisMatchApplication();
+	//private TennisMatchApplication tennisMatchApplication = new TennisMatchApplication();
 
 }

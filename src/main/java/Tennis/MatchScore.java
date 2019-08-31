@@ -1,7 +1,10 @@
 package Tennis;
 
+import org.springframework.stereotype.Service;
+
 import java.util.HashMap;
 
+@Service
 public class MatchScore {
     private HashMap<Player, GameScore> gameScore = new HashMap<>();
     private HashMap<Player, PointScore> pointScore = new HashMap<>();
