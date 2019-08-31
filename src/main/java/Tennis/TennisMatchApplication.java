@@ -1,7 +1,10 @@
 package Tennis;
 
+import org.springframework.stereotype.Component;
+
 import java.util.Scanner;
 
+@Component
 public class TennisMatchApplication {
 	MatchScore matchScore = new MatchScore();
 	Scanner keyboard = new Scanner(System.in);
