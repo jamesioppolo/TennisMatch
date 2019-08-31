@@ -14,7 +14,19 @@ public class MatchScore {
     }
 
     public void pointWonBy(Player player) {
-        pointScore.get(player).increment();
+        PointScore playerScore = pointScore.get(player);
+        PointScore otherPlayerScore = pointScore.get(player.equals(Player.One) ? Player.Two : Player.One);
+        if (playerScore.hasAdvantage()) {
+            gameScore.get(player).increment();
+            playerScore.reset();
+            otherPlayerScore.reset();
+        } else if (otherPlayerScore.hasAdvantage()) {
+            otherPlayerScore.setAdvantage(false);
+        } else if (isDeuce()) {
+            playerScore.setAdvantage(true);
+        } else {
+            playerScore.increment();
+        }
     }
 
     public String getScore() {
@@ -25,21 +37,27 @@ public class MatchScore {
 
     private String getMatchScoreString() {
         return String.format("%d - %d",
-                gameScore.get(Player.One).score,
-                gameScore.get(Player.Two).score);
+                gameScore.get(Player.One).getScore(),
+                gameScore.get(Player.Two).getScore());
     }
 
     private String getSetScoreString() {
-        return isDeuce()
-                ? "Deuce"
-                : String.format("%d - %d",
+        if (pointScore.get(Player.One).hasAdvantage()) {
+            return "Adv Player 1";
+        } else if (pointScore.get(Player.Two).hasAdvantage())
+        {
+            return "Adv Player 2";
+        } else if (isDeuce()) {
+            return "Deuce";
+        } else {
+            return String.format("%d - %d",
                     pointScore.get(Player.One).getScore(),
                     pointScore.get(Player.Two).getScore());
+        }
     }
 
     private boolean isDeuce() {
         return pointScore.get(Player.One).getScore().equals(40) &&
                pointScore.get(Player.Two).getScore().equals(40);
     }
-
 }

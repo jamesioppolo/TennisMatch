@@ -1,5 +1,13 @@
 package Tennis;
 
 public class GameScore {
-    public Integer score = 0;
+    private Integer score = 0;
+
+    public Integer getScore() {
+        return score;
+    }
+
+    public void increment() {
+        score++;
+    }
 }

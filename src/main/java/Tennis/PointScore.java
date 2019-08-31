@@ -29,4 +29,9 @@ public class PointScore {
                 break;
         }
     }
+
+    public void reset() {
+        score = 0;
+        setAdvantage(false);
+    }
 }

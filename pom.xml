@@ -14,13 +14,6 @@
 	</properties>
 
 	<dependencies>
-		<!-- tag::joda[] -->
-		<dependency>
-			<groupId>joda-time</groupId>
-			<artifactId>joda-time</artifactId>
-			<version>2.9.2</version>
-		</dependency>
-		<!-- end::joda[] -->
 		<!-- tag::junit[] -->
 		<dependency>
 			<groupId>junit</groupId>
@@ -35,6 +28,7 @@
 			<version>1.0.5</version>
 			<scope>test</scope>
 		</dependency>
+
 	</dependencies>
 
 	<build>

@@ -26,6 +26,18 @@ public class PointScoreTest {
         assertThat(pointScore.getScore(), is(score));
     }
 
+    @Test
+    public void resetScoreTest() {
+        pointScore.increment();
+        pointScore.increment();
+        pointScore.increment();
+        pointScore.increment();
+        pointScore.increment();
+        pointScore.reset();
+        assertThat(pointScore.getScore(), is(0));
+        assertThat(pointScore.hasAdvantage(), is(false));
+    }
+
     public static List<Object[]> getPointScoreIncrementData() {
         List<Object[]> list = new ArrayList<>();
 
