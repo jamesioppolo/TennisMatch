@@ -18,11 +18,28 @@ public class MatchScore {
     }
 
     public String getScore() {
-        return String.format("%d - %d, %d - %d",
+        return String.format("%s, %s",
+                getMatchScoreString(),
+                getSetScoreString());
+    }
+
+    private String getMatchScoreString() {
+        return String.format("%d - %d",
                 gameScore.get(Player.One).score,
-                gameScore.get(Player.Two).score,
-                pointScore.get(Player.One).getScore(),
-                pointScore.get(Player.Two).getScore());
+                gameScore.get(Player.Two).score);
+    }
+
+    private String getSetScoreString() {
+        return isDeuce()
+                ? "Deuce"
+                : String.format("%d - %d",
+                    pointScore.get(Player.One).getScore(),
+                    pointScore.get(Player.Two).getScore());
+    }
+
+    private boolean isDeuce() {
+        return pointScore.get(Player.One).getScore().equals(40) &&
+               pointScore.get(Player.Two).getScore().equals(40);
     }
 
 }

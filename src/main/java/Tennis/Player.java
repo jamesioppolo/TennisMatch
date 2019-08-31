@@ -4,7 +4,7 @@ public enum Player {
     One,
     Two;
 
-    public static Player fromInteger(int x) {
+    public static Player fromInteger(Integer x) {
         switch(x) {
             case 1:
                 return Player.One;

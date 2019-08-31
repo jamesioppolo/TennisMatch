@@ -1,10 +1,10 @@
 package Tennis;
 
 public class PointScore {
-    private int score;
+    private Integer score = 0;
     private boolean advantage;
 
-    public int getScore() {
+    public Integer getScore() {
         return score;
     }
 

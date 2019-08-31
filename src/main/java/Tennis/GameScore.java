@@ -1,5 +1,5 @@
 package Tennis;
 
 public class GameScore {
-    public int score;
+    public Integer score = 0;
 }
