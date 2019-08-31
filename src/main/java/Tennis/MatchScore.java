@@ -16,7 +16,7 @@ public class MatchScore {
     public void pointWonBy(Player player) {
         PointScore winningPlayerScore = pointScore.get(player);
         PointScore otherPlayerScore = pointScore.get(player.equals(Player.One) ? Player.Two : Player.One);
-        if (winningPlayerScore.hasAdvantage()) {
+        if (winningPlayerScore.hasAdvantage() || (winningPlayerScore.getScore().equals(40) && !isDeuce())) {
             gameScore.get(player).increment();
             winningPlayerScore.reset();
             otherPlayerScore.reset();
