@@ -1,6 +1,6 @@
 package hello;
 
-public class Greeter {
+public class TennisMatchApplication {
 	public String sayHello() {
 		return "Hello world!";
 	}

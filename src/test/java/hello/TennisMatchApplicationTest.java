@@ -5,9 +5,9 @@ import static org.junit.Assert.*;
 
 import org.junit.Test;
 
-public class GreeterTest {
+public class TennisMatchApplicationTest {
 	
-	private Greeter greeter = new Greeter();
+	private TennisMatchApplication greeter = new TennisMatchApplication();
 
 	@Test
 	public void greeterSaysHello() {
