@@ -1,4 +1,4 @@
-package hello;
+package Tennis;
 
 public class TennisMatchApplication {
 	public String sayHello() {
