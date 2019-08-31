@@ -40,6 +40,8 @@ public class MatchScoreTest {
         list.add(new Object[] {"0 - 0, Deuce",        new ArrayList<>( Arrays.asList(1, 1, 1, 2, 2, 2, 2, 1)) });
         list.add(new Object[] {"0 - 1, 0 - 0",        new ArrayList<>( Arrays.asList(1, 1, 1, 2, 2, 2, 2, 2)) });
         list.add(new Object[] {"0 - 0, Adv Player 1", new ArrayList<>( Arrays.asList(1, 1, 1, 2, 2, 2, 2, 1, 1)) });
+        list.add(new Object[] {"1 - 0, 0 - 0",        new ArrayList<>( Arrays.asList(1, 1, 1, 2, 2, 2, 2, 1, 1, 1)) });
+        list.add(new Object[] {"1 - 0, 15 - 0",       new ArrayList<>( Arrays.asList(1, 1, 1, 2, 2, 2, 2, 1, 1, 1, 1)) });
 
         return list;
     }
