@@ -1,12 +1,16 @@
 package Tennis.Services;
 
-import static org.hamcrest.CoreMatchers.containsString;
-import static org.junit.Assert.*;
-
+import Tennis.Wrappers.ConsoleWrapper;
+import Tennis.Wrappers.ScannerWrapper;
 import org.junit.Test;
+import org.mockito.Mockito;
 
 public class TennisMatchApplicationTest {
 	
-	//private TennisMatchApplication tennisMatchApplication = new TennisMatchApplication();
-
+    @Test
+    public void tennisMatchApplicationCycling_matchIsNoLongerInProgress() {
+        MatchScore matchScore = Mockito.mock(MatchScore.class);
+        ScannerWrapper scannerWrapper = Mockito.mock(ScannerWrapper.class);
+        ConsoleWrapper consoleWrapper = Mockito.mock(ConsoleWrapper.class);
+    }
 }
