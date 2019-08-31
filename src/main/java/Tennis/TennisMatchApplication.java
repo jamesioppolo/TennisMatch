@@ -11,7 +11,7 @@ public class TennisMatchApplication {
 
 	public void start() {
 		System.out.println("Tennis Match Application");
-		while(true) {
+		while(matchScore.isMatchInProgress()) {
 			System.out.println("Enter Player (1 or 2)>");
 			int keyPressInteger = keyboard.nextInt();
 			if (keyPressInteger == 1 || keyPressInteger == 2) {

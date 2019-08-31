@@ -35,6 +35,11 @@ public class MatchScore {
                 getSetScoreString());
     }
 
+    public boolean isMatchInProgress() {
+        return !(gameScore.get(Player.One).getScore().equals(6) ||
+                gameScore.get(Player.Two).getScore().equals(6));
+    }
+
     private String getMatchScoreString() {
         return String.format("%d - %d",
                 gameScore.get(Player.One).getScore(),
@@ -42,7 +47,9 @@ public class MatchScore {
     }
 
     private String getSetScoreString() {
-        if (pointScore.get(Player.One).hasAdvantage()) {
+        if (!isMatchInProgress()){
+            return getWinningPlayerString();
+        } else if (pointScore.get(Player.One).hasAdvantage()) {
             return "Adv Player 1";
         } else if (pointScore.get(Player.Two).hasAdvantage())
         {
@@ -54,6 +61,16 @@ public class MatchScore {
                     pointScore.get(Player.One).getScore(),
                     pointScore.get(Player.Two).getScore());
         }
+    }
+
+    private String getWinningPlayerString() {
+        String winningPlayerString = "";
+        if (gameScore.get(Player.One).getScore().equals(6)) {
+            winningPlayerString = "Player 1 wins!";
+        } else if (gameScore.get(Player.Two).getScore().equals(6)) {
+            winningPlayerString = "Player 2 wins!";
+        }
+        return winningPlayerString;
     }
 
     private boolean isDeuce() {
