@@ -3,14 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="ea51d22d-11a1-4885-b1c4-ba90e7d819f6" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Tennis/GameScore.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Tennis/GameScore.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Tennis/MatchScore.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Tennis/MatchScore.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Tennis/Player.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Tennis/Player.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Tennis/PointScore.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Tennis/PointScore.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/Tennis/MatchScoreTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Tennis/MatchScoreTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Tennis/PointScoreTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Tennis/PointScoreTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/classes/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -24,76 +18,82 @@
     <option name="isMigrated" value="true" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.5">
-      <split-first>
-        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/test/java/Tennis/TennisMatchApplicationTest.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="204">
-                  <caret line="12" column="30" selection-start-line="12" selection-start-column="30" selection-end-line="12" selection-end-column="30" />
-                  <folding>
-                    <element signature="imports" expanded="true" />
-                    <element signature="e#287#288#0" expanded="true" />
-                    <element signature="e#349#350#0" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/main/java/Tennis/Main.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="170">
-                  <caret line="10" column="5" selection-start-line="10" selection-start-column="5" selection-end-line="10" selection-end-column="5" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/main/java/Tennis/MatchScore.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="374">
-                  <caret line="22" column="48" lean-forward="true" selection-start-line="22" selection-start-column="48" selection-end-line="22" selection-end-column="48" />
-                  <folding>
-                    <element signature="e#322#323#0" expanded="true" />
-                    <element signature="e#356#357#0" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/src/test/java/Tennis/MatchScoreTest.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="391">
-                  <caret line="23" column="24" lean-forward="true" selection-start-line="23" selection-start-column="24" selection-end-line="23" selection-end-column="24" />
-                  <folding>
-                    <element signature="imports" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-        </leaf>
-      </split-first>
-      <split-second>
-        <leaf>
-          <file pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/src/test/java/Tennis/PointScoreTest.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="476">
-                  <caret line="28" selection-start-line="28" selection-end-line="37" selection-end-column="5" />
-                  <folding>
-                    <element signature="imports" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-        </leaf>
-      </split-second>
-    </splitter>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/Tennis/TennisMatchApplicationTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="204">
+              <caret line="12" column="30" selection-start-line="12" selection-start-column="30" selection-end-line="12" selection-end-column="30" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#287#288#0" expanded="true" />
+                <element signature="e#349#350#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/Tennis/Main.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="170">
+              <caret line="10" column="5" selection-start-line="10" selection-start-column="5" selection-end-line="10" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/Tennis/TennisMatchApplication.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="34">
+              <caret line="2" column="35" selection-start-line="2" selection-start-column="35" selection-end-line="2" selection-end-column="35" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/Tennis/PointScore.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="102">
+              <caret line="6" column="15" lean-forward="true" selection-start-line="6" selection-start-column="15" selection-end-line="6" selection-end-column="15" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/java/Tennis/MatchScoreTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="629">
+              <caret line="37" column="94" selection-start-line="37" selection-start-column="94" selection-end-line="37" selection-end-column="94" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/Tennis/PointScoreTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="340">
+              <caret line="20" column="42" selection-start-line="20" selection-start-column="42" selection-end-line="20" selection-end-column="42" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/Tennis/GameScore.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="51">
+              <caret line="3" column="4" selection-start-line="3" selection-start-column="4" selection-end-line="3" selection-end-column="4" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -118,11 +118,11 @@
         <option value="$PROJECT_DIR$/src/test/java/Tennis/TennisMatchApplicationTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/Tennis/SetScore.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/Tennis/Player.java" />
         <option value="$PROJECT_DIR$/src/test/java/Tennis/PointScoreTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/Tennis/PointScore.java" />
         <option value="$PROJECT_DIR$/src/main/java/Tennis/GameScore.java" />
         <option value="$PROJECT_DIR$/src/main/java/Tennis/MatchScore.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Tennis/Player.java" />
         <option value="$PROJECT_DIR$/src/test/java/Tennis/MatchScoreTest.java" />
       </list>
     </option>
@@ -150,7 +150,7 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds">
     <option name="x" value="-11" />
     <option name="width" value="1940" />
     <option name="height" value="2111" />
@@ -239,7 +239,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.MatchScoreTest.initialMatch">
+  <component name="RunManager" selected="JUnit.MatchScoreTest">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Tennis.Main" />
       <module name="gs-maven" />
@@ -314,8 +314,8 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.MatchScoreTest.initialMatch" />
         <item itemvalue="JUnit.MatchScoreTest" />
+        <item itemvalue="JUnit.MatchScoreTest.initialMatch" />
         <item itemvalue="JUnit.PointScoreTest" />
         <item itemvalue="Application.Main" />
       </list>
@@ -332,34 +332,45 @@
       <option name="presentableId" value="Default" />
       <updated>1567213078803</updated>
     </task>
+    <task id="LOCAL-00001" summary="Added unit test for first game">
+      <created>1567221418250</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1567221418250</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="PointScoreTest - 2019.08.31 at 12h 08m 18s.xml">
-      <configuration name="PointScoreTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="PointScoreTest - 2019.08.31 at 12h 13m 41s.xml">
-      <configuration name="PointScoreTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="PointScoreTest - 2019.08.31 at 12h 14m 44s.xml">
-      <configuration name="PointScoreTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="MatchScoreTest - 2019.08.31 at 12h 51m 12s.xml">
+    <history-entry file="MatchScoreTest - 2019.08.31 at 13h 14m 18s.xml">
       <configuration name="MatchScoreTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MatchScoreTest - 2019.08.31 at 12h 54m 52s.xml">
+    <history-entry file="MatchScoreTest - 2019.08.31 at 13h 14m 31s.xml">
       <configuration name="MatchScoreTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MatchScoreTest - 2019.08.31 at 12h 55m 03s.xml">
+    <history-entry file="MatchScoreTest - 2019.08.31 at 13h 14m 39s.xml">
       <configuration name="MatchScoreTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MatchScoreTest - 2019.08.31 at 12h 55m 38s.xml">
+    <history-entry file="MatchScoreTest - 2019.08.31 at 13h 15m 32s.xml">
       <configuration name="MatchScoreTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MatchScoreTest_initialMatch - 2019.08.31 at 12h 57m 40s.xml">
-      <configuration name="MatchScoreTest.initialMatch" configurationId="JUnit" />
+    <history-entry file="MatchScoreTest - 2019.08.31 at 13h 18m 27s.xml">
+      <configuration name="MatchScoreTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MatchScoreTest - 2019.08.31 at 12h 58m 27s.xml">
+    <history-entry file="MatchScoreTest - 2019.08.31 at 13h 24m 50s.xml">
+      <configuration name="MatchScoreTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MatchScoreTest - 2019.08.31 at 13h 25m 02s.xml">
+      <configuration name="MatchScoreTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MatchScoreTest - 2019.08.31 at 13h 25m 15s.xml">
+      <configuration name="MatchScoreTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MatchScoreTest - 2019.08.31 at 13h 31m 34s.xml">
+      <configuration name="MatchScoreTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MatchScoreTest - 2019.08.31 at 13h 31m 56s.xml">
       <configuration name="MatchScoreTest" configurationId="JUnit" />
     </history-entry>
   </component>
@@ -373,10 +384,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="2575" height="1415" extended-state="6" />
+    <frame x="-7" y="0" width="1293" height="1407" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.124453284" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2538524" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -385,31 +396,35 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.33019608" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32941177" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32941177" />
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.32941177" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
-      <window_info anchor="bottom" id="Version Control" order="9" visible="true" weight="0.32735777" />
+      <window_info anchor="bottom" id="Version Control" order="9" weight="0.32941177" />
       <window_info anchor="bottom" id="Messages" order="10" weight="0.32941177" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="right" id="Maven" order="4" visible="true" weight="0.06361829" />
+      <window_info anchor="right" id="Maven" order="4" weight="0.1297648" />
       <window_info anchor="right" id="Theme Preview" order="5" />
       <window_info anchor="right" id="Capture Analysis" order="6" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
     </layout>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Added unit test for first game" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added unit test for first game" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/test/java/Tennis/MatchScoreTest.java</url>
-          <line>16</line>
+          <line>23</line>
           <properties />
           <option name="timeStamp" value="1" />
         </line-breakpoint>
@@ -424,10 +439,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Tennis/TennisMatchApplication.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/Tennis/GameScore.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="35" selection-start-line="2" selection-start-column="35" selection-end-line="2" selection-end-column="35" />
+        <state relative-caret-position="51">
+          <caret line="3" column="4" selection-start-line="3" selection-start-column="4" selection-end-line="3" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Tennis/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="5" selection-start-line="10" selection-start-column="5" selection-end-line="10" selection-end-column="5" />
         </state>
       </provider>
     </entry>
@@ -443,10 +465,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Tennis/Main.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/Tennis/PointScoreTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="5" selection-start-line="10" selection-start-column="5" selection-end-line="10" selection-end-column="5" />
+        <state relative-caret-position="340">
+          <caret line="20" column="42" selection-start-line="20" selection-start-column="42" selection-end-line="20" selection-end-column="42" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -454,35 +479,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
           <caret line="6" column="15" lean-forward="true" selection-start-line="6" selection-start-column="15" selection-end-line="6" selection-end-column="15" />
-          <folding>
-            <element signature="e#128#129#0" expanded="true" />
-            <element signature="e#156#157#0" expanded="true" />
-            <element signature="e#197#198#0" expanded="true" />
-            <element signature="e#231#232#0" expanded="true" />
-            <element signature="e#292#293#0" expanded="true" />
-            <element signature="e#334#335#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Tennis/Player.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="20" lean-forward="true" selection-start-line="2" selection-start-column="20" selection-end-line="2" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Tennis/GameScore.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="4" selection-start-line="3" selection-start-column="4" selection-end-line="3" selection-end-column="4" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Tennis/MatchScore.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="22" column="48" lean-forward="true" selection-start-line="22" selection-start-column="48" selection-end-line="22" selection-end-column="48" />
+        <state relative-caret-position="238">
+          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
           <folding>
             <element signature="e#322#323#0" expanded="true" />
             <element signature="e#356#357#0" expanded="true" />
@@ -490,20 +493,31 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/Tennis/PointScoreTest.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/Tennis/TennisMatchApplication.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="476">
-          <caret line="28" selection-start-line="28" selection-end-line="37" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="34">
+          <caret line="2" column="35" selection-start-line="2" selection-start-column="35" selection-end-line="2" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_131/src.zip!/java/util/List.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="529" column="7" lean-forward="true" selection-start-line="529" selection-start-column="7" selection-end-line="529" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Tennis/Player.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="25" selection-start-line="6" selection-start-column="25" selection-end-line="6" selection-end-column="25" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/Tennis/MatchScoreTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="23" column="24" lean-forward="true" selection-start-line="23" selection-start-column="24" selection-end-line="23" selection-end-column="24" />
+        <state relative-caret-position="629">
+          <caret line="37" column="94" selection-start-line="37" selection-start-column="94" selection-end-line="37" selection-end-column="94" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
