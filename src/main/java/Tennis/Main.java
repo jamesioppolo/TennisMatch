@@ -1,5 +1,6 @@
 package Tennis;
 
+import Tennis.Services.TennisMatchApplication;
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
 
 public class Main {

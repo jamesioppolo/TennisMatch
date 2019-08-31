@@ -1,4 +1,4 @@
-package Tennis;
+package Tennis.Services;
 
 import org.springframework.stereotype.Service;
 

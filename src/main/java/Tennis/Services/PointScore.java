@@ -1,4 +1,4 @@
-package Tennis;
+package Tennis.Services;
 
 public class PointScore {
     private Integer score = 0;

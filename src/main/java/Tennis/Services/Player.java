@@ -1,4 +1,4 @@
-package Tennis;
+package Tennis.Services;
 
 public enum Player {
     One,

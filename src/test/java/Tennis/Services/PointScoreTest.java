@@ -1,8 +1,9 @@
-package Tennis;
+package Tennis.Services;
 
 import static org.hamcrest.CoreMatchers.*;
 import static org.junit.Assert.*;
 
+import Tennis.Services.PointScore;
 import junitparams.Parameters;
 import org.junit.Test;
 import org.junit.runner.RunWith;

@@ -1,9 +1,8 @@
-package Tennis;
+package Tennis.Services;
 
+import Tennis.Wrappers.ScannerWrapper;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
-
-import java.util.Scanner;
 
 @Component
 public class TennisMatchApplication {
@@ -11,17 +10,20 @@ public class TennisMatchApplication {
 	@Autowired
 	private final MatchScore matchScore;
 
-	Scanner keyboard = new Scanner(System.in);
+	@Autowired
+	private final ScannerWrapper scanner;
 
-	public TennisMatchApplication(MatchScore matchScore) {
+	public TennisMatchApplication(MatchScore matchScore,
+								  ScannerWrapper scanner) {
 		this.matchScore = matchScore;
+		this.scanner = scanner;
 	}
 
 	public void start() {
 		System.out.println("Tennis Match Application");
 		while(matchScore.isMatchInProgress()) {
 			System.out.println("Enter Player (1 or 2)>");
-			int keyPressInteger = keyboard.nextInt();
+			int keyPressInteger = scanner.nextInt();
 			if (keyPressInteger == 1 || keyPressInteger == 2) {
 				matchScore.pointWonBy(Player.fromInteger(keyPressInteger));
 			} else {
