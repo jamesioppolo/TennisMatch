@@ -19,7 +19,7 @@ public class PointScoreTest {
 
     @Test
     @Parameters(method = "getPointScoreIncrementData")
-    public void incrementScore(int numIncrements, int score) {
+    public void incrementScoreTest(int numIncrements, int score) {
         Stream.iterate(0, n -> n + 1)
               .limit(numIncrements)
               .forEach(x -> pointScore.increment());
