@@ -14,18 +14,18 @@ public class MatchScore {
     }
 
     public void pointWonBy(Player player) {
-        PointScore playerScore = pointScore.get(player);
+        PointScore winningPlayerScore = pointScore.get(player);
         PointScore otherPlayerScore = pointScore.get(player.equals(Player.One) ? Player.Two : Player.One);
-        if (playerScore.hasAdvantage()) {
+        if (winningPlayerScore.hasAdvantage()) {
             gameScore.get(player).increment();
-            playerScore.reset();
+            winningPlayerScore.reset();
             otherPlayerScore.reset();
         } else if (otherPlayerScore.hasAdvantage()) {
             otherPlayerScore.setAdvantage(false);
         } else if (isDeuce()) {
-            playerScore.setAdvantage(true);
+            winningPlayerScore.setAdvantage(true);
         } else {
-            playerScore.increment();
+            winningPlayerScore.increment();
         }
     }
 
