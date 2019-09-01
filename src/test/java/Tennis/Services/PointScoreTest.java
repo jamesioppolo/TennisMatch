@@ -23,20 +23,20 @@ public class PointScoreTest {
     public void incrementScoreTest(Integer numIncrements, Integer score) {
         Stream.iterate(0, n -> n + 1)
               .limit(numIncrements)
-              .forEach(x -> pointScore.increment());
-        assertThat(pointScore.getScore(), is(score));
+              .forEach(x -> this.pointScore.increment());
+        assertThat(this.pointScore.getScore(), is(score));
     }
 
     @Test
     public void resetScoreTest() {
-        pointScore.increment();
-        pointScore.increment();
-        pointScore.increment();
-        pointScore.increment();
-        pointScore.increment();
-        pointScore.reset();
-        assertThat(pointScore.getScore(), is(0));
-        assertThat(pointScore.hasAdvantage(), is(false));
+        this.pointScore.increment();
+        this.pointScore.increment();
+        this.pointScore.increment();
+        this.pointScore.increment();
+        this.pointScore.increment();
+        this.pointScore.reset();
+        assertThat(this.pointScore.getScore(), is(0));
+        assertThat(this.pointScore.hasAdvantage(), is(false));
     }
 
     public static List<Object[]> getPointScoreIncrementData() {

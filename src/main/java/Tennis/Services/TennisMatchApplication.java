@@ -26,16 +26,16 @@ public class TennisMatchApplication {
 	}
 
 	public void start() {
-		consoleWrapper.printLine("Tennis Match Application");
-		while(matchScore.isMatchInProgress()) {
-			consoleWrapper.printLine("Enter Player (1 or 2)>");
-			Integer keyPressInteger = scanner.nextInt();
+		this.consoleWrapper.printLine("Tennis Match Application");
+		while(this.matchScore.isMatchInProgress()) {
+			this.consoleWrapper.printLine("Enter Player (1 or 2)>");
+			Integer keyPressInteger = this.scanner.nextInt();
 			if (keyPressInteger.equals(1) || keyPressInteger.equals(2)) {
-				matchScore.pointWonBy(Player.fromInteger(keyPressInteger));
+				this.matchScore.pointWonBy(Player.fromInteger(keyPressInteger));
 			} else {
-				consoleWrapper.printLine("Invalid input.");
+				this.consoleWrapper.printLine("Invalid input.");
 			}
-			consoleWrapper.printLine(matchScore.getScore());
+			this.consoleWrapper.printLine(this.matchScore.getScore());
 		}
 	}
 }

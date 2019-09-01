@@ -23,8 +23,8 @@ public class MatchScoreTest {
     public void executeMatchSequence(String matchResult, List<Integer> scores) {
         Stream.iterate(0, n -> n + 1)
                 .limit(scores.size())
-                .forEach(x -> matchScore.pointWonBy(Player.fromInteger(scores.get(x))));
-        assertThat(matchScore.getScore(), is(matchResult));
+                .forEach(x -> this.matchScore.pointWonBy(Player.fromInteger(scores.get(x))));
+        assertThat(this.matchScore.getScore(), is(matchResult));
     }
 
     public static List<Object[]> getMatchScoreData() {

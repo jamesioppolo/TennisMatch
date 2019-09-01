@@ -4,10 +4,10 @@ public class GameScore {
     private Integer score = 0;
 
     public Integer getScore() {
-        return score;
+        return this.score;
     }
 
     public void increment() {
-        score++;
+        this.score++;
     }
 }

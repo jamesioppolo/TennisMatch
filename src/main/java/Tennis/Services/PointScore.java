@@ -5,15 +5,15 @@ public class PointScore {
     private boolean advantage;
 
     public Integer getScore() {
-        return score;
+        return this.score;
     }
 
     public boolean hasAdvantage() {
-        return advantage;
+        return this.advantage;
     }
 
     public void setAdvantage(boolean hasAdvantage) {
-        advantage = hasAdvantage;
+        this.advantage = hasAdvantage;
     }
 
     public void increment() {
@@ -31,7 +31,7 @@ public class PointScore {
     }
 
     public void reset() {
-        score = 0;
-        setAdvantage(false);
+        this.score = 0;
+        this.setAdvantage(false);
     }
 }

@@ -15,7 +15,7 @@ public class GameScoreTest {
 
     @Test
     public void incrementScoreWorks() {
-        gameScore.increment();
-        assertThat(gameScore.getScore(), is(1));
+        this.gameScore.increment();
+        assertThat(this.gameScore.getScore(), is(1));
     }
 }
