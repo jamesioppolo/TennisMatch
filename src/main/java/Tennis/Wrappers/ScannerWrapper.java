@@ -6,21 +6,21 @@ import java.util.Scanner;
 
 @Service
 public class ScannerWrapper {
-    private Scanner keyboard;
+    private Scanner scanner;
 
     public ScannerWrapper() {
         this.initialiseScanner();
     }
 
     private void initialiseScanner() {
-        this.keyboard = new Scanner(System.in);
+        this.scanner = new Scanner(System.in);
     }
 
     public Integer nextInt() {
         try {
-            return keyboard.nextInt();
+            return scanner.nextInt();
         } catch(Exception e) {
-            keyboard.reset();
+            scanner.reset();
             this.initialiseScanner();
             return 0;
         }
