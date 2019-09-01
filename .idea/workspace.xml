@@ -2,15 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ea51d22d-11a1-4885-b1c4-ba90e7d819f6" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gs-maven.iml" beforeDir="false" afterPath="$PROJECT_DIR$/gs-maven.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Tennis/Services/MatchScoreTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Tennis/Services/MatchScoreTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Tennis/Services/TennisMatchApplicationTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Tennis/Services/TennisMatchApplicationTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/gs-maven.kotlin_module" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/META-INF/gs-maven.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Tennis/Services/TennisMatchApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Tennis/Services/TennisMatchApplication.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -167,8 +160,8 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.TennisMatchApplicationTest.tennisMatchApplicationCyclingStops_whenMatchIsNoLongerInProgress" />
         <item itemvalue="Application.Main" />
+        <item itemvalue="JUnit.TennisMatchApplicationTest.tennisMatchApplicationCyclingStops_whenMatchIsNoLongerInProgress" />
         <item itemvalue="JUnit.PointScoreTest" />
         <item itemvalue="JUnit.Tennis in gs-maven" />
         <item itemvalue="JUnit.MatchScoreTest" />
@@ -185,7 +178,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1567213078803</updated>
-      <workItem from="1567289006632" duration="4636000" />
+      <workItem from="1567289006632" duration="5768000" />
     </task>
     <task id="LOCAL-00001" summary="Added unit test for first game">
       <created>1567221418250</created>
@@ -222,7 +215,14 @@
       <option name="project" value="LOCAL" />
       <updated>1567228395907</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Updated unit test for tennis match application">
+      <created>1567294159647</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1567294159647</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TodoView">
@@ -243,6 +243,7 @@
     <MESSAGE value="Improved readability" />
     <MESSAGE value="Added test case" />
     <MESSAGE value="Added unit test for game score" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added unit test for game score" />
+    <MESSAGE value="Updated unit test for tennis match application" />
+    <option name="LAST_COMMIT_MESSAGE" value="Updated unit test for tennis match application" />
   </component>
 </project>

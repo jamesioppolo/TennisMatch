@@ -29,8 +29,8 @@ public class TennisMatchApplication {
 		consoleWrapper.printLine("Tennis Match Application");
 		while(matchScore.isMatchInProgress()) {
 			consoleWrapper.printLine("Enter Player (1 or 2)>");
-			int keyPressInteger = scanner.nextInt();
-			if (keyPressInteger == 1 || keyPressInteger == 2) {
+			Integer keyPressInteger = scanner.nextInt();
+			if (keyPressInteger.equals(1) || keyPressInteger.equals(2)) {
 				matchScore.pointWonBy(Player.fromInteger(keyPressInteger));
 			} else {
 				consoleWrapper.printLine("Invalid input.");
