@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="ea51d22d-11a1-4885-b1c4-ba90e7d819f6" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Tennis/Services/TennisMatchApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Tennis/Services/TennisMatchApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Tennis/Wrappers/ScannerWrapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Tennis/Wrappers/ScannerWrapper.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -178,7 +178,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1567213078803</updated>
-      <workItem from="1567289006632" duration="5768000" />
+      <workItem from="1567289006632" duration="6153000" />
     </task>
     <task id="LOCAL-00001" summary="Added unit test for first game">
       <created>1567221418250</created>
@@ -222,7 +222,14 @@
       <option name="project" value="LOCAL" />
       <updated>1567294159647</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Changed to proper integer comparison">
+      <created>1567312275951</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1567312275951</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TodoView">
@@ -244,6 +251,7 @@
     <MESSAGE value="Added test case" />
     <MESSAGE value="Added unit test for game score" />
     <MESSAGE value="Updated unit test for tennis match application" />
-    <option name="LAST_COMMIT_MESSAGE" value="Updated unit test for tennis match application" />
+    <MESSAGE value="Changed to proper integer comparison" />
+    <option name="LAST_COMMIT_MESSAGE" value="Changed to proper integer comparison" />
   </component>
 </project>

@@ -6,9 +6,23 @@ import java.util.Scanner;
 
 @Service
 public class ScannerWrapper {
-    Scanner keyboard = new Scanner(System.in);
+    private Scanner keyboard;
+
+    public ScannerWrapper() {
+        this.initialiseScanner();
+    }
+
+    private void initialiseScanner() {
+        this.keyboard = new Scanner(System.in);
+    }
 
     public Integer nextInt() {
-        return keyboard.nextInt();
+        try {
+            return keyboard.nextInt();
+        } catch(Exception e) {
+            keyboard.reset();
+            this.initialiseScanner();
+            return 0;
+        }
     }
 }
