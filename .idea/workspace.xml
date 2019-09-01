@@ -3,12 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="ea51d22d-11a1-4885-b1c4-ba90e7d819f6" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Tennis/Services/GameScore.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Tennis/Services/GameScore.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Tennis/Services/PointScore.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Tennis/Services/PointScore.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Tennis/Services/TennisMatchApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Tennis/Services/TennisMatchApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Tennis/Services/GameScoreTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Tennis/Services/GameScoreTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Tennis/Services/MatchScoreTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Tennis/Services/MatchScoreTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Tennis/Services/PointScoreTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Tennis/Services/PointScoreTest.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -75,7 +70,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.All in gs-maven">
+  <component name="RunManager" selected="Application.Main">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Tennis.Main" />
       <module name="gs-maven" />
@@ -158,8 +153,8 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.All in gs-maven" />
         <item itemvalue="Application.Main" />
+        <item itemvalue="JUnit.All in gs-maven" />
         <item itemvalue="JUnit.TennisMatchApplicationTest.tennisMatchApplicationCyclingStops_whenMatchIsNoLongerInProgress" />
         <item itemvalue="JUnit.PointScoreTest" />
         <item itemvalue="JUnit.Tennis in gs-maven" />
@@ -176,7 +171,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1567213078803</updated>
-      <workItem from="1567289006632" duration="6496000" />
+      <workItem from="1567289006632" duration="6741000" />
     </task>
     <task id="LOCAL-00001" summary="Added unit test for first game">
       <created>1567221418250</created>
@@ -241,7 +236,14 @@
       <option name="project" value="LOCAL" />
       <updated>1567312761100</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="cleaned up codebase and used 'this' consistently">
+      <created>1567313013335</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1567313013335</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TodoView">
@@ -266,6 +268,7 @@
     <MESSAGE value="Changed to proper integer comparison" />
     <MESSAGE value="improved resilience of keyboard scanner" />
     <MESSAGE value="cleaned up keyboard scanner" />
-    <option name="LAST_COMMIT_MESSAGE" value="cleaned up keyboard scanner" />
+    <MESSAGE value="cleaned up codebase and used 'this' consistently" />
+    <option name="LAST_COMMIT_MESSAGE" value="cleaned up codebase and used 'this' consistently" />
   </component>
 </project>
