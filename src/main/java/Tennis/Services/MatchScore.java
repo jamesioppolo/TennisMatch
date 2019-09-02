@@ -18,9 +18,9 @@ public class MatchScore {
 
     public void pointWonBy(Player player) {
         PointScore winningPlayerScore = pointScore.get(player);
-        PointScore otherPlayerScore = pointScore.get(player.equals(Player.One) ? Player.Two : Player.One);
-        if (winningPlayerScore.hasAdvantage() || (winningPlayerScore.getScore().equals(40) && !isDeuce())) {
-            gameScore.get(player).increment();
+        PointScore otherPlayerScore = pointScore.get(this.getOtherPlayerFor(player));
+        if (this.willPointWinSet(winningPlayerScore)) {
+            this.gameScore.get(player).increment();
             winningPlayerScore.reset();
             otherPlayerScore.reset();
         } else if (otherPlayerScore.hasAdvantage()) {
@@ -30,6 +30,15 @@ public class MatchScore {
         } else {
             winningPlayerScore.increment();
         }
+    }
+
+    private Player getOtherPlayerFor(Player player) {
+        return player.equals(Player.One)
+                ? Player.Two
+                : Player.One;
+    }
+    private boolean willPointWinSet(PointScore score) {
+        return score.hasAdvantage() || (score.getScore().equals(40) && !isDeuce());
     }
 
     public String getScore() {
