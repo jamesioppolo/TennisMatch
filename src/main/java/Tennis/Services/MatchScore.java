@@ -25,7 +25,7 @@ public class MatchScore {
             otherPlayerScore.reset();
         } else if (otherPlayerScore.hasAdvantage()) {
             otherPlayerScore.setAdvantage(false);
-        } else if (isDeuce()) {
+        } else if (this.isDeuce()) {
             winningPlayerScore.setAdvantage(true);
         } else {
             winningPlayerScore.increment();
@@ -38,13 +38,13 @@ public class MatchScore {
                 : Player.One;
     }
     private boolean willPointWinSet(PointScore score) {
-        return score.hasAdvantage() || (score.getScore().equals(40) && !isDeuce());
+        return score.hasAdvantage() || (score.getScore().equals(40) && !this.isDeuce());
     }
 
     public String getScore() {
         return String.format("%s, %s",
-                getMatchScoreString(),
-                getSetScoreString());
+                this.getMatchScoreString(),
+                this.getSetScoreString());
     }
 
     public boolean isMatchInProgress() {
@@ -59,14 +59,14 @@ public class MatchScore {
     }
 
     private String getSetScoreString() {
-        if (!isMatchInProgress()){
-            return getWinningPlayerString();
+        if (!this.isMatchInProgress()){
+            return this.getWinningPlayerString();
         } else if (pointScore.get(Player.One).hasAdvantage()) {
             return "Adv Player 1";
         } else if (pointScore.get(Player.Two).hasAdvantage())
         {
             return "Adv Player 2";
-        } else if (isDeuce()) {
+        } else if (this.isDeuce()) {
             return "Deuce";
         } else {
             return String.format("%d - %d",
