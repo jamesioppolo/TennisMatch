@@ -23,10 +23,10 @@ public class PointScore {
         switch(score) {
             case 0:
             case 15:
-                score += 15;
+                this.score += 15;
                 break;
             case 30:
-                score += 10;
+                this.score += 10;
                 break;
             default:
                 break;
