@@ -3,7 +3,12 @@
   <component name="ChangeListManager">
     <list default="true" id="ea51d22d-11a1-4885-b1c4-ba90e7d819f6" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Tennis/Services/TennisMatchApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Tennis/Services/TennisMatchApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gs-maven.iml" beforeDir="false" afterPath="$PROJECT_DIR$/gs-maven.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Tennis/Services/GameScore.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Tennis/Services/GameScore.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Tennis/Services/PointScore.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Tennis/Services/PointScore.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Tennis/Services/GameScoreTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Tennis/Services/GameScoreTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -21,11 +26,6 @@
         <option value="Class" />
       </list>
     </option>
-  </component>
-  <component name="FindInProjectRecents">
-    <findStrings>
-      <find>int</find>
-    </findStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -47,7 +47,7 @@
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
@@ -70,7 +70,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Main">
+  <component name="RunManager" selected="JUnit.All in gs-maven">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Tennis.Main" />
       <module name="gs-maven" />
@@ -99,6 +99,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="GameScoreTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="gs-maven" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Tennis.Services.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Tennis.Services" />
+      <option name="MAIN_CLASS_NAME" value="Tennis.Services.GameScoreTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="PointScoreTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="gs-maven" />
       <extension name="coverage">
@@ -110,20 +125,6 @@
       <option name="PACKAGE_NAME" value="Tennis.Services" />
       <option name="MAIN_CLASS_NAME" value="Tennis.Services.PointScoreTest" />
       <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Tennis in gs-maven" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="gs-maven" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Tennis.Services.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="Tennis" />
-      <option name="TEST_OBJECT" value="package" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -147,17 +148,17 @@
     <list>
       <item itemvalue="Application.Main" />
       <item itemvalue="JUnit.PointScoreTest" />
-      <item itemvalue="JUnit.Tennis in gs-maven" />
       <item itemvalue="JUnit.TennisMatchApplicationTest.tennisMatchApplicationCyclingStops_whenMatchIsNoLongerInProgress" />
       <item itemvalue="JUnit.All in gs-maven" />
+      <item itemvalue="JUnit.GameScoreTest" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Main" />
         <item itemvalue="JUnit.All in gs-maven" />
+        <item itemvalue="Application.Main" />
+        <item itemvalue="JUnit.GameScoreTest" />
         <item itemvalue="JUnit.TennisMatchApplicationTest.tennisMatchApplicationCyclingStops_whenMatchIsNoLongerInProgress" />
         <item itemvalue="JUnit.PointScoreTest" />
-        <item itemvalue="JUnit.Tennis in gs-maven" />
       </list>
     </recent_temporary>
   </component>
@@ -172,6 +173,8 @@
       <option name="presentableId" value="Default" />
       <updated>1567213078803</updated>
       <workItem from="1567289006632" duration="6741000" />
+      <workItem from="1568154582106" duration="994000" />
+      <workItem from="1568194364418" duration="1136000" />
     </task>
     <task id="LOCAL-00001" summary="Added unit test for first game">
       <created>1567221418250</created>
@@ -257,6 +260,19 @@
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Added unit test for first game" />

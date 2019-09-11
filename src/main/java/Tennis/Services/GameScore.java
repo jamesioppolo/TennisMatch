@@ -1,11 +1,9 @@
 package Tennis.Services;
 
-public class GameScore {
-    private Integer score = 0;
+import lombok.Getter;
 
-    public Integer getScore() {
-        return this.score;
-    }
+public class GameScore {
+    @Getter private Integer score = 0;
 
     public void increment() {
         this.score++;

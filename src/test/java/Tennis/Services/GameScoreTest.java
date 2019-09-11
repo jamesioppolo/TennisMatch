@@ -3,10 +3,7 @@ package Tennis.Services;
 import static org.hamcrest.CoreMatchers.*;
 import static org.junit.Assert.*;
 
-import Tennis.Services.GameScore;
 import org.junit.Test;
-import org.junit.runner.RunWith;
-import junitparams.JUnitParamsRunner;
 
 public class GameScoreTest {
 

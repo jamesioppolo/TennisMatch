@@ -1,8 +1,11 @@
 package Tennis.Services;
 
+import lombok.Getter;
+import lombok.Setter;
+
 public class PointScore {
-    private Integer score = 0;
-    private boolean advantage;
+    @Getter private Integer score = 0;
+    private boolean advantage = false;
 
     public Integer getScore() {
         return this.score;
