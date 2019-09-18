@@ -18,8 +18,8 @@ public class TennisMatchApplication {
 	private final ConsoleWrapper consoleWrapper;
 
 	public TennisMatchApplication(MatchScore matchScore,
-								  ScannerWrapper scanner,
-								  ConsoleWrapper consoleWrapper) {
+				      ScannerWrapper scanner,
+				      ConsoleWrapper consoleWrapper) {
 		this.matchScore = matchScore;
 		this.scanner = scanner;
 		this.consoleWrapper = consoleWrapper;
