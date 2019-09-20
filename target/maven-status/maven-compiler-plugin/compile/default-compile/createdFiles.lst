@@ -1,8 +1,0 @@
-Tennis/Main.class
-Tennis/Services/MatchScore.class
-Tennis/Services/GameScore.class
-Tennis/Wrappers/ConsoleWrapper.class
-Tennis/Services/Player.class
-Tennis/Wrappers/ScannerWrapper.class
-Tennis/Services/PointScore.class
-Tennis/Services/TennisMatchApplication.class
