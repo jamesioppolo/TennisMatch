@@ -10,6 +10,11 @@ public class GameScoreTest {
     private GameScore gameScore = new GameScore();
 
     @Test
+    public void scoreIsZero_originally() {
+        assertThat(this.gameScore.getScore(), is(0));
+    }
+    
+    @Test
     public void incrementScoreWorks() {
         this.gameScore.increment();
         assertThat(this.gameScore.getScore(), is(1));
